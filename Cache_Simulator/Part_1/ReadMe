@@ -1,0 +1,11 @@
+Code folder contains cache_simulator.cpp which is the cache simulator written in C++.
+
+Input_Files folder has 5 test cases whose corresponding outputs are given in Output_Files folder.
+
+Each test case file is a memory access trace having Load and Store instructions as per the format given in the handout.
+
+Cache Parameter can be specified during program execution as per the following format:
+
+$ ./a.out -assoc <associativity> -block <blocksize_in_bytes> -cap <capacity_in_kbytes> -repl <replacement_policy_LRU/random> < <input_file> > <output_file>
+
+Note: The order of cache parameters can be changed or omitted as desired.(Base case is included in the code)
